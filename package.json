@@ -1,0 +1,24 @@
+{
+  "name": "troll_hunter",
+  "version": "1.0.0",
+  "description": "trolls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JTLaMarre/Troll_hunter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JTLaMarre/Troll_hunter/issues"
+  },
+  "homepage": "https://github.com/JTLaMarre/Troll_hunter#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
